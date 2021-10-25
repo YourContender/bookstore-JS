@@ -10,7 +10,7 @@ function searchCurrentAuthor(data) {
             item.remove()
         });
         
-        let current = data.filter(item => item.title == input.value);
+        let current = data.filter(item => item.title == input.value || item.id === +input.value);
         console.log('current', current);
         createBookItem(current); 
     })

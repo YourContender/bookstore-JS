@@ -1,29 +1,37 @@
 import createBookItem from './content.js';
 
 function filter(items) {
-    document.querySelector('.all').addEventListener('click', () => {
-        filtersDatabase(items);
-    });
-    
-    function filtersDatabase(arr) {
+
+    function filtersDatabaseAll(arr) {
         document.querySelectorAll('.col-4').forEach(item => {
             item.remove()
         })
+
         createBookItem(arr);
     };
-    
-    
-    document.querySelector('.much-three').addEventListener('click', () => {
-        filteredDatabaseSecond(items)
-    });
-    
-    function filteredDatabaseSecond(arr) {
+
+    function filtersDatabase(arr, selector) {
         document.querySelectorAll('.col-4').forEach(item => {
             item.remove()
         })
-        let data = arr.filter(item => item.id > 2);
+
+        let data = arr.filter(item => item.category === selector);
         createBookItem(data);
     };
+
+    // create methods 
+    document.querySelectorAll('.container-btn button').forEach(item => {
+        item.addEventListener('click', () => {
+            if (item.id === '1') {
+                filtersDatabaseAll(items);
+            }
+
+            if (item.id === 'js' || item.id === 'c' || item.id === 'php' || item.id === 'html' || item.id === 'math') {
+                filtersDatabase(items, item.id);
+            }
+        })
+    })
+
 }
 
 export default filter;

@@ -1,40 +1,123 @@
 let items = [
     {
-        src: 'https://refactoring.guru/images/patterns/book/web-cover-ru.png', 
-        title: 'Sergey', 
+        src: './img/1.jpg', 
+        title: 'Algorithms', 
+        category: 'math',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        id: 1
+        id: 1,
+        price: '100$'
     },
     {
-        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVqS6-2onsVy-RFFWuXQrgssycd8FwCOFqXA&usqp=CAU', 
-        title: 'Ivan', 
+        src: './img/2.png', 
+        title: 'Computer science', 
+        category: 'math',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
         id: 2, 
         price: '170$'
     },
     {
-        src: 'https://habrastorage.org/files/9c2/836/cdb/9c2836cdbc5d4ba5a84e4908dd8caf6c.jpg', 
-        title: 'Vitalina', 
+        src: './img/3.jpg', 
+        title: 'Java', 
+        category: 'java',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        id: 3
+        id: 3,
+        price: '100$'
     },
     {
-        src: 'https://habrastorage.org/webt/w2/iq/ty/w2iqtymezwkoji62znu8yucfn3s.jpeg', 
-        title: 'Roma', 
+        src: './img/4.jpg', 
+        title: 'JavaScript pattern', 
+        category: 'js',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        id: 4
+        id: 4,
+        price: '100$'
     },
     {
-        src: 'http://dmkpress.com/images/cms/data/978-5-97060-800-5-1.jpg', 
-        title: 'Roma', 
+        src: './img/5.jpg', 
+        title: 'C#', 
+        category: 'c',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        id: 5
+        id: 5,
+        price: '100$'
     },
     {
-        src: 'https://cv01.studmed.ru/f3ed731cf6d/f73f630.jpg', 
-        title: 'Kirill', 
+        src: './img/6.png', 
+        title: 'JavaScript articles', 
+        category: 'js',
         descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        id: 6
+        id: 6,
+        price: '100$'
+    },
+    {
+        src: './img/7.png', 
+        title: 'OOP', 
+        category: 'math',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 7,
+        price: '100$'
+    },
+    {
+        src: './img/8.png', 
+        title: 'JavaScript', 
+        category: 'js',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 8,
+        price: '100$'
+    },
+    {
+        src: './img/9.png', 
+        title: 'OOP', 
+        category: 'math',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 9,
+        price: '100$'
+    },
+    {
+        src: './img/10.png', 
+        title: 'Html css', 
+        category: 'html',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 10,
+        price: '100$'
+    },
+    {
+        src: './img/11.png', 
+        title: 'PHP OOP', 
+        category: 'php',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 11,
+        price: '100$'
+    },
+    {
+        src: './img/12.png', 
+        title: 'JavaScript programer',
+        category: 'js', 
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 12,
+        price: '100$'
+    },
+    {
+        src: './img/13.png', 
+        title: 'Pattern', 
+        category: 'math',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 13,
+        price: '100$'
+    },
+    {
+        src: './img/14.png', 
+        title: 'Math', 
+        category: 'math',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 14,
+        price: '100$'
+    },
+    {
+        src: './img/15.png', 
+        title: 'Html css', 
+        category: 'html',
+        descr: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+        id: 15,
+        price: '100$'
     }
 ]
 
