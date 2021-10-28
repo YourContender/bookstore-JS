@@ -21,7 +21,7 @@ function createBookItem(data) {
 
     find.append(message)
     
-    data.map(item => {
+    data.forEach(item => {
         element.innerHTML += `
             <div class="col-4"> 
                 <div class="card mt-5" style="width: 18rem;">
@@ -41,7 +41,7 @@ function createBookItem(data) {
             let id = item.parentNode.id
             createModalWindow('block', id, data)
             document.body.style.overflow = 'hidden'
-            console.log('click work');
+            // console.log('click work');
         })
     })
 
