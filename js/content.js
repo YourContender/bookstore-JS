@@ -1,7 +1,7 @@
 import createModalWindow from "./modal.js";
 
 function createBookItem(data) {
-    const parent = document.querySelector('.container');
+    const parent = document.querySelector('.row');
     const element = document.createElement('div');
     element.classList.add('row');
 
@@ -23,8 +23,8 @@ function createBookItem(data) {
     
     data.forEach(item => {
         element.innerHTML += `
-            <div class="col-4"> 
-                <div class="card mt-5" style="width: 18rem;">
+            <div class="col-sm-12 col-md-6 col-xl-4"> 
+                <div class="card mt-5" style="width: 18rem; margin-left: 10px"">
                     <img src=${item.src} height='300px' weight='150px' class="card-img-top" alt="...">
                     <div class="card-body" id=${item.id}>
                             <h5 class="card-title">${item.title}</h5>

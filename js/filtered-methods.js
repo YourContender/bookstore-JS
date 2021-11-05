@@ -3,7 +3,7 @@ import createBookItem from './content.js';
 function filter(items) {
 
     function filtersDatabaseAll(arr) {
-        document.querySelectorAll('.col-4').forEach(item => {
+        document.querySelectorAll('.col-sm-12').forEach(item => {
             item.remove()
         })
 
@@ -11,7 +11,7 @@ function filter(items) {
     };
 
     function filtersDatabase(arr, selector) {
-        document.querySelectorAll('.col-4').forEach(item => {
+        document.querySelectorAll('.col-sm-12').forEach(item => {
             item.remove()
         })
 

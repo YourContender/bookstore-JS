@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    padding-right: 100px;
+    padding:0 100px 0 100px;
 }
 
 .container-btn button{
     background: none;
     border: 2px solid rgb(36, 35, 35, .55);
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 5px;
     margin-left: 10px;
     margin-left: 5px;
@@ -19,4 +19,132 @@
 .container-btn button:hover {
     background-color: rgb(36, 35, 35, .85);
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container-btn button{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .col-sm-12 {
+        margin-left: 0px;
+    }
+    .basket-element {
+        width: 768px;
+    }
+    .basket-element h4 {
+        font-size: 16px
+    }
+    .basket-element-link {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .close-element-link {
+        right: 19px;
+        margin-top: -25px;
+        /* top: 90px; */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-12 {
+        padding-left: 120px;
+    }
+    .basket-element {
+        width: 520px;
+    }
+    .basket-element-link {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .basket-element-link span {
+        font-size: 12px;
+    }
+    .basket-title {
+        font-size: 16px;
+    }
+    .basket-descr {
+        width: 200px;
+    }
+    .basket-descr span {
+        font-size: 12px;
+    }
+    .close-element-link {
+        right: 1px;
+    }
+}
+
+@media (max-width: 420px) {
+    .col-sm-12 {
+        padding-left: 45px;
+    }
+    .basket-element {
+        width: 400px;
+    }
+    .modal-container {
+        top: 10%;
+        width: 380px;
+        height: 510px;
+    }
+    .modal-container img {
+        width: 370px;
+        height: 150px;
+    }
+    .basket-element img {
+        width: 350px;
+    }
+    .basket-element-link {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .basket-element-link img{
+        margin-left: 15px;
+        width: 80px;
+    }
+    .basket-title {
+        font-size: 14px;
+        width: 80px;
+        margin-left: 0;
+    }
+    .basket-descr {
+        width: 120px;
+    }
+    .basket-descr span {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .close-element-link {
+        right: 10px;
+    }
+}
+ 
+@media (max-width: 320px) {
+    .col-sm-12 {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .container-btn button{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .modal-container {
+        width: 290px;
+        height: 455px;
+    }
+
+    .modal-container img {
+        width: 280px;
+        height: 130px;
+    }
+    .content-modal h4{
+        font-size: 16px;
+    }
+    .basket-element {
+        width: 320px;
+    }
+    .basket-element img {
+        width: 300px;
+    }
 }

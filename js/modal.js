@@ -10,7 +10,7 @@ function createModalWindow(display='none', id, arr = []) {
     current.map(item => {
         modal.innerHTML = `
             <button class='close-modal btn-danger'>X</button>
-            <img src='../img/bg.jpg' width='520px'/>
+            <img src='../img/bg.jpg'/>
             <div class='content-modal'>
                 <h4><em>Подтвердите, пожалуйста, покупку!</em></h4>
                 <h4>Название книги: <strong><span>'${item.title}'</span></strong></h4>

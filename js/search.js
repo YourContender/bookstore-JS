@@ -6,7 +6,7 @@ function searchCurrentAuthor(data) {
     document.querySelector('.d-flex').addEventListener('submit', (e) => {
         e.preventDefault()
 
-        document.querySelectorAll('.col-4').forEach(item => {
+        document.querySelectorAll('.col-md-4').forEach(item => {
             item.remove()
         });
         
